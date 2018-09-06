@@ -1,5 +1,8 @@
 # AWS Deep Dive course from linuxacademy.com
 
+##[exercise]()
+* [EC2_snapshot]()
+
 ## Lambda Introduction
 ### Limit
  1. Resource limit per invocation
@@ -26,7 +29,7 @@
  10. concurrency **(calculating concurrency for non-stream**: average execution time * number of events processed. e.g. 100 events from API Gateway, 3 sec/event, then it is 100*3 = 300) (**concurrency for stream based service**:100 records being read per stream from DynamoDB, 50 active shares at a given time-- **50 concurrent executions** Each active shard is considered a concurrent execution.) (**Throttling** concurrency)
 
 ## Logging and monitoring with Lambda
-* monitoring with cloudWatch
+* monitoring with CloudWatch
 * logging in the test execution result.
 * CloudWatch console
 * X-Ray overview (downstream to S3 bucket)
@@ -41,3 +44,14 @@
 * **Predetermined** invocation type-- can not be changed!
 * Event model: **push**(e.g.CloudWatch rule trigger Lambda) and **pull** (e.g. lambda pull from kinesis to pass failed events to DLQ)
 * **Event source mapping**: setting up event sources and configuring which function is triggered.
+
+## CloudWatch Event & Lambda
+* Event pattern
+* Scheduled expression (Cron expression & rate expression)
+* Target
+* Configure CloudWatch alarm
+* Rule can be set in CloudWatch event or in Lambda 
+
+## Lambda CLI
+```
+```
