@@ -12,6 +12,6 @@
 
 [Exercises](https://github.com/mikoSL/AWS_Lambda/tree/master/Lambda_Deep_Dive/exercises)
 * [EC2_snapshot](https://github.com/mikoSL/AWS_Lambda/tree/master/Lambda_Deep_Dive/exercises/1_EC2_snapshot)
-[CloudWatch Lambda Function](https://github.com/mikoSL/AWS_Lambda/tree/master/Lambda_Deep_Dive/exercises/2_CloudWatch_Alarm_for_Lambda_Error_with_SNS)
-[Create Lambda Function with CLI](https://github.com/mikoSL/AWS_Lambda/tree/master/Lambda_Deep_Dive/exercises/3_Create_Lambda_function_with_CLI)
-[Event Souce Mapping and SNS with CLI](https://github.com/mikoSL/AWS_Lambda/tree/master/Lambda_Deep_Dive/exercises/4_Event_Source_Mapping_SNS_with_CLI)
+* [CloudWatch Lambda Function](https://github.com/mikoSL/AWS_Lambda/tree/master/Lambda_Deep_Dive/exercises/2_CloudWatch_Alarm_for_Lambda_Error_with_SNS)
+* [Create Lambda Function with CLI](https://github.com/mikoSL/AWS_Lambda/tree/master/Lambda_Deep_Dive/exercises/3_Create_Lambda_function_with_CLI)
+* [Event Souce Mapping and SNS with CLI](https://github.com/mikoSL/AWS_Lambda/tree/master/Lambda_Deep_Dive/exercises/4_Event_Source_Mapping_SNS_with_CLI)
